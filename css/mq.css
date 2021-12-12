@@ -1,0 +1,49 @@
+@media screen and (max-width: 360px) {
+    body{
+        width: 100%;
+        height: 400vh;
+    }
+    svg{
+        width: 30px;
+    }
+    #introContainer{
+        width: 100%;
+        height: 130vh;
+    }
+    main{
+        width: 100%;
+        text-align: center;
+    }
+    h1{
+        font-size: 30px;
+    }
+    #plantsNowContainer{
+        height: 180vh;
+    }
+    #asideContainer{
+        height: 200vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .gBox{
+        width: 100%;
+    }
+    .pictureBox img{
+        width: 50px;
+    }
+    #blocksContainer{
+        height: 500vh;
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .boxes{
+        width: 100%;
+    }
+    #spacer{
+        width: 100%;
+        height: 70vh;
+    }
+    #contactContainer{
+        height: 90vh;
+    }
+  }
